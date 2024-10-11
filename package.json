@@ -1,0 +1,16 @@
+{
+  "name": "find-my-car-app",
+  "version": "1.0.0",
+  "description": "## Project Overview **Find My Car** is a mobile app designed to help users easily remember where they parked their car using Meta Ray-Ban glasses and GPS technology. By using voice commands like \"Save my parking spot\" and \"Where's my car?\", the app saves the location of your parked car and provides walking directions back to it when needed. This project leverages the Meta Ray-Ban glasses for hands-free interaction and Google Maps API for navigation, making it a practical solution for anyone who frequently forgets their parking spot.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
