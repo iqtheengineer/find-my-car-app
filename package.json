@@ -1,19 +1,47 @@
 {
   "name": "find-my-car-app",
   "version": "1.0.0",
-  "description": "## Project Overview **Find My Car** is a mobile app designed to help users easily remember where they parked their car using Meta Ray-Ban glasses and GPS technology. By using voice commands like \"Save my parking spot\" and \"Where's my car?\", the app saves the location of your parked car and provides walking directions back to it when needed. This project leverages the Meta Ray-Ban glasses for hands-free interaction and Google Maps API for navigation, making it a practical solution for anyone who frequently forgets their parking spot.",
+  "description": "Find My Car is a mobile app designed to help users easily remember where they parked their car using Meta Ray-Ban glasses and GPS technology. By using voice commands like 'Save my parking spot' and 'Where's my car?', the app saves the location of your parked car and provides walking directions back to it when needed. This project leverages the Meta Ray-Ban glasses for hands-free interaction and Google Maps API for navigation, making it a practical solution for anyone who frequently forgets their parking spot.",
   "main": "index.js",
+  "private": true,
   "directories": {
     "doc": "docs",
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@react-native-community/geolocation": "^3.4.0"
+    "@react-native-community/geolocation": "^3.4.0",
+    "react": "18.3.1",
+    "react-native": "0.75.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/babel-preset": "0.75.4",
+    "@react-native/eslint-config": "0.75.4",
+    "@react-native/metro-config": "0.75.4",
+    "@react-native/typescript-config": "0.75.4",
+    "@types/react": "^18.2.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.6.3",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "18.3.1",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
+
