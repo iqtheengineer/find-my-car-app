@@ -1,5 +1,3 @@
-# Define the README content with all the sections from the previous prompt
-readme_content = """
 # Find My Car 🚗📍
 
 ## Project Overview
